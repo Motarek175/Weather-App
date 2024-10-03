@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container input h-fit relative mt-10 md:mt-28 mx-auto">
+      <input
+        type="text"
+        class="bg-slate-800 w-full rounded-3xl relative px-2 py-2 text-white text-2xl"
+        placeholder="Find your location"
+      />
+      <button
+        class="text-white text-xl absolute top-1/2 -translate-y-1/2 right-3 rounded-full px-6 py-1 bg-blue-600 cursor-pointer capitalize"
+      >
+        find
+      </button>
+    </div>
+    <div class="container mx-auto mt-5">
+      <div
+        class="display relative grid max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+      ></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
